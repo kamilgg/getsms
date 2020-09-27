@@ -21,11 +21,6 @@
 $ pip install git+https://github.com/kamilgg/smska.git
 ```
 
-или через PyPI:
-
-```bash
-$ pip install getsms
-```
 
 <a name="using"><h2>Использование</h2></a>
 
