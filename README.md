@@ -8,9 +8,9 @@
 
 <a name="settings"><h2>Настройка</h2></a>
 Перед установкой нужно получить ключ API в настройках профиля на сайте сервиса, который вам нужен: 
-[SMSHUB](), 
-[5SIM](), 
-[SMS-ACTIVATE]().
+[SMSHUB](https://smshub.org/), 
+[5SIM](https://5sim.net/), 
+[SMS-ACTIVATE](https://sms-activate.ru/).
 
 <a name="installation"><h2>Установка</h2></a>
 Для работы модуля `smska` требуется Python3.
@@ -18,7 +18,7 @@
 Используйте `pip` для установки библиотеки через GitHub:
 
 ```bash
-$ pip install git+https://github.com/kamilgg/smska.git
+$ pip install git+https://github.com/kamilgg/getsms.git
 ```
 
 
@@ -27,7 +27,7 @@ $ pip install git+https://github.com/kamilgg/smska.git
 ```python
 from getsms import SMSHub
 
-sms_hub = SMSHub("токен_сервиса_smska.net")
+sms_hub = SMSHub("токен_сервиса_smshub")
 
 # Получение баланса аккаунта
 balance = sms_hub.get_balance()
